@@ -21,6 +21,7 @@ The compiler is built step by step across five phases, covering the **full compi
 
 - **Intermediate Representation (Phase 3)**
   - Generates an **assembly-like IR (Intermediate Representation)**.
+  - Designed a symbol table for variables, functions, and scope resolution.
   - Includes jumps, labels, function calls, and system calls.
   - Simplifies translation into machine code.
 
